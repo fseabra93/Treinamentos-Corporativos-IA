@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Agilidade com IA Generativa</title>
+  <style>
+    :root{
+      --bg:#f6f7fb; --card:#ffffff; --accent:#4a00e0; --accent-2:#8e2de2; --text:#111827; --muted:#6b7280;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased}
+    .container{max-width:1100px;margin:40px auto;padding:24px}
+    header.hero{background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#fff;padding:56px 24px;border-radius:12px}
+    header.hero h1{margin:0;font-size:2.2rem}
+    header.hero p{margin:12px 0 0;color:rgba(255,255,255,0.92)}
+    .card{background:var(--card);padding:22px;border-radius:12px;box-shadow:0 6px 24px rgba(16,24,40,0.06);}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;margin-top:20px}
+    .kicker{display:inline-block;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.08);font-weight:600}
+    h2{color:var(--accent);margin-top:0}
+    p.lead{color:var(--muted);line-height:1.6}
+    .cta{display:inline-block;margin-top:18px;padding:12px 18px;background:#fff;color:var(--accent);font-weight:700;border-radius:10px;text-decoration:none}
+    .feature{display:flex;gap:14px;align-items:flex-start}
+    .feature .ico{font-size:26px;padding:8px;background:linear-gradient(180deg,rgba(74,0,224,0.12),rgba(142,45,226,0.08));border-radius:10px}
+    ul.clean{padding-left:18px;color:var(--muted)}
+    aside.note{margin-top:18px;padding:14px;border-left:4px solid var(--accent-2);background:linear-gradient(90deg,rgba(142,45,226,0.03),transparent)}
+    footer{max-width:1100px;margin:24px auto 60px;padding:0 24px;color:var(--muted);font-size:0.95rem}
+    @media (max-width:520px){header.hero h1{font-size:1.6rem}}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="hero card">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap">
+        <div style="flex:1;min-width:260px">
+        <!-- <span class="kicker">Agilidade Empresarial</span>--> 
+          <h1>IA Generativa: o atalho estratégico para acelerar sua empresa</h1>
+          <p class="lead">Reduza semanas de trabalho para minutos. Transforme decisões lentas em ações imediatas e elimine gargalos com fluxos inteligentes que entregam resultados reais — agora.</p>
+          <a class="cta" href="mailto:contato@seudominio.com.br?subject=Proposta%20-%20Agilidade%20com%20IA">Solicitar Proposta</a>
+        </div>
+        <div style="width:320px;min-width:220px">
+          <!-- <div style="background:linear-gradient(180deg,rgba(255,255,255,0.9),#fff);padding:18px;border-radius:10px;text-align:left">
+            <strong style="display:block">Rápido resumo</strong>
+            <p style="margin:8px 0 0;color:var(--muted)">Automação de documentos, 
+              assistentes internos, geração de relatórios e síntese de dados: 
+              tarefas que consumiam dias agora rodam em segundos.</p>
+          </div> -->
+        </div>
+      </div>
+    </header>
+
+    <section class="card" style="margin-top:22px">
+      <h2>1 — Agilidade operacional: menos espera, mais execução</h2>
+      <p class="lead">Ao automatizar tarefas repetitivas — elaboração de documentos, relatórios, respostas a clientes e ideias internas — a IA liber a capacidade das pessoas para atividades de alto impacto. Sua equipe deixa de ficar presa à operação e passa a entregar resultados.</p>
+      <div class="grid" style="margin-top:16px">
+        <div>
+          <div class="feature"><div class="ico">⚡</div><div><strong>Relatórios automáticos</strong><div style="color:var(--muted)">Geração semanal a partir de planilhas e sistemas em segundos.</div></div></div>
+        </div>
+        <div>
+          <div class="feature"><div class="ico">✉️</div><div><strong>Respostas padronizadas</strong><div style="color:var(--muted)">Roteiros para atendimento, e-mails e mensagens que mantêm a voz da empresa.</div></div></div>
+        </div>
+        <div>
+          <div class="feature"><div class="ico">📊</div><div><strong>Apresentações instantâneas</strong><div style="color:var(--muted)">Slides prontos com dados atualizados e narrativa clara.</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:18px">
+      <h2>2 — Decisões mais rápidas e embasadas</h2>
+      <p class="lead">Análises complexas, cruzamento de dados e sínteses longas se tornam acessíveis em tempo real. A IA entrega respostas objetivas que aceleram o processo decisório.</p>
+      <ul class="clean">
+        <li>Análise de riscos e oportunidades por projeto</li>
+        <li>Comparativo rápido entre fornecedores</li>
+        <li>Sintetização de relatórios e bases de conhecimento</li>
+      </ul>
+    </section>
+
+    <section class="card" style="margin-top:18px">
+      <h2>3 — Menos retrabalho, menos erros</h2>
+      <p class="lead">Modelos padronizados e validações automáticas reduzem inconsistências e versões duplicadas — e com isso o custo de retrabalho despenca.</p>
+      <div class="grid" style="margin-top:12px">
+        <div>
+          <strong>Padronização</strong>
+          <p style="color:var(--muted)">Modelos de contrato, laudos e relatórios com validação automática.</p>
+        </div>
+        <div>
+          <strong>Revisão assistida</strong>
+          <p style="color:var(--muted)">Sugestões de melhoria e checagem de consistência antes da versão final.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:18px">
+      <h2>4 — Processos que fluem sem travar</h2>
+      <p class="lead">Com chatbots internos e assistentes especializados, tarefas simples deixam de depender de aprovações manuais e acontecem em segundos.</p>
+      <ul class="clean">
+        <li>Assistentes para políticas internas e procedimentos</li>
+        <li>Consultas rápidas a contratos e históricos</li>
+        <li>Automação de comunicações e lembretes</li>
+      </ul>
+    </section>
+
+    <section class="card" style="margin-top:18px">
+      <h2>5 — Cultura de velocidade, inovação e autonomia</h2>
+      <p class="lead">Adotar IA generativa transforma a forma de trabalhar: equipes mais independentes, menos filas entre áreas e uma capacidade de resposta muito maior.</p>
+      <aside class="note">
+        <strong>Impacto combinado:</strong> fluxos mais rápidos • menos dependências • entregas aceleradas • vantagem competitiva.
+      </aside>
+    </section>
+
+    <section class="card" style="margin-top:18px;display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap">
+      <div style="flex:1;min-width:260px">
+        <h2>Pronto para acelerar?</h2>
+        <p class="lead">Oferecemos workshops, implementação de fluxos internos e consultoria contínua para transformar sua operação com segurança e resultados mensuráveis.</p>
+        <a class="cta" href="mailto:contato@seudominio.com.br?subject=Interesse%20-%20Workshop%20Agilidade">Quero uma proposta</a>
+      </div>
+      <div style="width:340px;min-width:220px">
+        <div class="card" style="padding:16px">
+          <strong>O que entregamos</strong>
+          <ul class="clean" style="margin-top:8px">
+            <li>Diagnóstico de fluxo e oportunidades</li>
+            <li>Modelos prontos de documentos e prompts</li>
+            <li>Implementação de assistentes internos</li>
+            <li>Treinamento para equipes e líderes</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    © 2025 — Treinamentos Corporativos em IA Generativa • contato@seudominio.com.br
+  </footer>
+</body>
+</html>
