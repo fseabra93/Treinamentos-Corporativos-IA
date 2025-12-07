@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>IA Generativa para Clínicas Médicas e Odontológicas</title>
+  <title>IA Generativa para Clínicas Médicas</title>
   <style>
     :root{
       --bg:#fbfbfd; --card:#ffffff; --accent:#0b5cff; --accent-2:#6c8cff; --text:#0f1724; --muted:#636b75;
@@ -15,8 +15,15 @@
     header.hero h1{margin:0;font-size:2.1rem}
     header.hero p{margin:12px 0 0;color:rgba(255,255,255,0.95)}
     .card{background:var(--card);padding:22px;border-radius:12px;box-shadow:0 6px 24px rgba(16,24,40,0.06);}
+    /* A classe .grid não será mais usada na seção de escopo, mas mantida no CSS global por segurança. */
     .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:20px}
     h2{color:var(--accent);margin-top:0}
+    /* Estilo para os novos módulos contínuos */
+    .module-section { margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid rgba(16, 24, 40, 0.05); }
+    .module-section:last-of-type { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    h3.module-title { color: var(--text); margin: 0 0 8px 0; font-size: 1.25rem; display: flex; align-items: center; }
+    .module-title .ico { margin-right: 12px; font-size: 24px; padding: 6px; background: linear-gradient(180deg,rgba(11,92,255,0.08),rgba(108,140,255,0.06)); border-radius: 8px; }
+    /* Fim do estilo para módulos */
     p.lead{color:var(--muted);line-height:1.6}
     .cta{display:inline-block;margin-top:18px;padding:12px 18px;background:#fff;color:var(--accent);font-weight:700;border-radius:10px;text-decoration:none}
     .feature{display:flex;gap:14px;align-items:flex-start}
@@ -35,7 +42,7 @@
     <header class="hero card">
       <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap">
         <div style="flex:1;min-width:260px">
-          <h1>IA Generativa para Clínicas Médicas e Odontológicas</h1>
+          <h1>IA Generativa para Clínicas Médicas</h1>
           <p class="lead">Treinamento hands-on que ensina suas equipes clínicas, administrativas e de gestão a usar inteligência artificial generativa de forma simples e eficaz</p>
           <a class="cta" href="mailto:contato@seudominio.com.br?subject=Proposta%20-%20IA%20para%20Clinicas%20Medicas%20e%20Odontologicas">Solicitar Proposta</a>
         </div>
@@ -45,128 +52,134 @@
     <section class="card" style="margin-top:22px">
       <h2>Objetivo do programa</h2>
       <p class="lead">
-        Capacite médicos, dentistas, gestores e equipes administrativas a usar IA generativa no dia a dia da clínica. Aprenda a agilizar documentações, melhorar a comunicação com pacientes e organizar informações com mais eficiência.
+        Capacite médicos, gestores e equipes administrativas a usar IA generativa no dia a dia da clínica. 
+        Aprenda a agilizar documentações, melhorar a comunicação com pacientes e organizar informações
+         com mais eficiência.
       </p>
 
       <p class="lead">
-        O resultado? Menos tempo perdido com tarefas repetitivas e papelada, mais tempo livre para o que realmente importa: cuidar das pessoas.
+        O resultado? Menos tempo perdido com tarefas repetitivas e papelada, 
+        mais tempo livre para o que realmente importa: cuidar das pessoas.
       </p>
 
       <p class="lead">
-        Ao final do programa, sua clínica terá fluxos de trabalho inteligentes integrados à rotina real, desde prontuários e agenda até comunicação com pacientes e materiais educativos. Tudo isso com diretrizes claras de segurança, ética e total conformidade com a LGPD.
+        Ao final do programa, sua clínica terá fluxos de trabalho inteligentes integrados à rotina real
+        , desde prontuários e agenda até comunicação com pacientes e materiais educativos. 
+        Tudo isso com diretrizes claras de segurança, ética e total conformidade com a LGPD.
       </p>
     </section>
 
+    <!-- INÍCIO DA SEÇÃO ESCOPO DO TREINAMENTO (MODIFICADA PARA TEXTO CONTÍNUO) -->
     <section class="card" style="margin-top:18px">
-      <h2>Escopo do treinamento</h2>
-      <div class="grid" style="margin-top:8px">
-        <div>
-          <div class="feature">
-            <div class="ico">🩺</div>
-            <div>
-              <strong>Módulo 1 – Fundamentos de IA na prática clínica</strong>
-              <div style="color:var(--muted);margin-top:6px">
-                Visão geral da IA generativa aplicada à realidade de clínicas médicas e odontológicas, com foco em rotinas de consultório, documentação e relacionamento com pacientes.
-              </div>
-            </div>
-          </div>
-          <ul class="clean" style="margin-top:8px">
-            <li>O que IA generativa faz (e o que não faz) em saúde.</li>
-            <li>Riscos, limitações, responsabilidade profissional e revisão clínica obrigatória.</li>
-            <li>Boas práticas de uso com foco em ética e segurança de dados.</li>
-          </ul>
-        </div>
+      <h2>O que IA generativa pode fazer por você (e o que ela não pode)?</h2>
 
-        <div>
-          <div class="feature">
-            <div class="ico">📄</div>
-            <div>
-              <strong>Módulo 2 – Documentação clínica e administrativa com IA</strong>
-              <div style="color:var(--muted);margin-top:6px">
-                Uso de IA para apoiar elaboração de textos clínicos estruturados, registros de atendimento, relatórios e documentos administrativos, sempre com validação do profissional.[web:40][web:45]
-              </div>
-            </div>
+      <!-- Módulo 1 -->
+      <div class="module-section">
+          <h3 class="module-title">
+            <span class="ico">🤖</span>  
+            1 – Fundamentos da IA Generativa
+          </h3>
+          <div style="color:var(--muted);margin-top:6px;line-height:1.6">
+            Visão geral da IA generativa e como aplicá-la à realidade de
+             clínicas médicas, com foco em rotinas de consultório, documentação 
+             e relacionamento com pacientes.
           </div>
           <ul class="clean" style="margin-top:8px">
-            <li>Rascunho de resumos de consulta a partir de anotações do profissional.[web:46]</li>
-            <li>Elaboração de relatórios para convênios, encaminhamentos e laudos descritivos simples.[web:48]</li>
-            <li>Geração de textos administrativos: atas, POPs, checklists e comunicados internos.[web:47]</li>
+
+            <li>Entendendo o conceito de LLMs, tokens e Janelas de Contexto</li>
+            <li>Riscos, limitações e responsabilidade profissional.</li>
+            <li>Boas práticas de uso com foco em ética 
+              e segurança de dados em alinhamento com CFM e LGPD.</li>
           </ul>
-        </div>
       </div>
 
-      <div class="grid" style="margin-top:18px">
-        <div>
-          <div class="feature">
-            <div class="ico">💬</div>
-            <div>
-              <strong>Módulo 3 – Comunicação com pacientes e materiais educativos</strong>
-              <div style="color:var(--muted);margin-top:6px">
-                Aplicação de IA na criação de textos claros e empáticos para pacientes, adequando linguagem técnica, canais (WhatsApp, e-mail, folhetos) e perfil do público.[web:42][web:44]
-              </div>
-            </div>
+      <!-- Módulo 2 -->
+      <div class="module-section">
+          <h3 class="module-title">
+            <span class="ico">📄</span>
+            2 – Documentação clínica e administrativa com ajuda da IA
+          </h3>
+          <div style="color:var(--muted);margin-top:6px;line-height:1.6">
+            Uso de IA para apoiar elaboração de textos clínicos estruturados, 
+            registros de atendimento, relatórios e documentos administrativos, 
+            para posterior validação do profissional.
           </div>
           <ul class="clean" style="margin-top:8px">
-            <li>Mensagens de lembrete de consultas, preparo de exames e pós-atendimento.[web:42]</li>
-            <li>Criação de orientações pós-operatórias e cuidados em casa em linguagem acessível.[web:45]</li>
-            <li>Materiais educativos (posts, folhetos, FAQs) alinhados à linha de cuidado da clínica.[web:40]</li>
+            <li>Criação textos estruturados ou resumos de consulta a 
+              partir de anotações do profissional.</li>
+            <li>Elaboração de prescrições, relatórios para convênios, atestados, 
+              encaminhamentos e laudos descritivos simples.</li>
+            <li>Geração de textos administrativos: atas, POPs, checklists e 
+              comunicados internos.</li>
+            <li>Análise de dados em planilhas eletrônicas.</li>
           </ul>
-        </div>
+      </div>
 
-        <div>
-          <div class="feature">
-            <div class="ico">🗂️</div>
-            <div>
-              <strong>Módulo 4 – Organização de rotinas e processos da clínica</strong>
-              <div style="color:var(--muted);margin-top:6px">
-                Uso de IA para mapear processos, apoiar o agendamento, gestão de filas, triagem simples de demandas e organização de informações relevantes para a equipe.[web:47][web:53]
-              </div>
-            </div>
+      <!-- Módulo 3 -->
+      <div class="module-section">
+          <h3 class="module-title">
+            <span class="ico">💬</span>
+            3 – Comunicação com pacientes e materiais educativos
+          </h3>
+          <div style="color:var(--muted);margin-top:6px;line-height:1.6">
+            Aplicação de IA na criação de textos claros e empáticos para pacientes, adequando linguagem técnica, canais (WhatsApp, e-mail, folhetos) e perfil do público.
           </div>
           <ul class="clean" style="margin-top:8px">
-            <li>Mapeamento das principais rotinas administrativas e pontos de atrito.[web:49]</li>
-            <li>Criação de checklists operacionais para recepção, faturamento e sala de procedimentos.[web:47]</li>
+            <li>Mensagens de lembrete de consultas, preparo de exames e pós-atendimento.</li>
+            <li>Criação de orientações pós-operatórias e cuidados em casa em linguagem acessível.</li>
+            <li>Materiais educativos (posts, folhetos, FAQs) alinhados à linha de cuidado da clínica.</li>
+          </ul>
+      </div>
+
+      <!-- Módulo 4 -->
+      <div class="module-section">
+          <h3 class="module-title">
+            <span class="ico">🗂️</span>
+            Módulo 4 – Organização de rotinas e processos da clínica
+          </h3>
+          <div style="color:var(--muted);margin-top:6px;line-height:1.6">
+            Uso de IA para mapear processos administrativos, apoiar o agendamento, gestão de filas, triagem simples de demandas e organização de informações relevantes para a equipe.
+          </div>
+          <ul class="clean" style="margin-top:8px">
+            <li>Mapeamento das principais rotinas administrativas e pontos de atrito.</li>
+            <li>Criação de checklists operacionais para recepção, faturamento e sala de procedimentos.</li>
             <li>Modelos de prompts para dúvidas frequentes da equipe (protocolos, fluxos, contatos).</li>
           </ul>
-        </div>
       </div>
 
-      <div class="grid" style="margin-top:18px">
-        <div>
-          <div class="feature">
-            <div class="ico">🦷</div>
-            <div>
-              <strong>Módulo 5 – Aplicações específicas em odontologia</strong>
-              <div style="color:var(--muted);margin-top:6px">
-                Exemplos de uso de IA generativa para documentação odontológica, comunicação de planos de tratamento e acompanhamento de pacientes.[web:51][web:54]
-              </div>
-            </div>
+      <!-- Módulo 5 
+      <div class="module-section">
+          <h3 class="module-title">
+            <span class="ico">🦷</span>
+            Módulo 5 – Aplicações específicas em odontologia
+          </h3>
+          <div style="color:var(--muted);margin-top:6px;line-height:1.6">
+            Exemplos de uso de IA generativa para documentação odontológica, comunicação de planos de tratamento e acompanhamento de pacientes.
           </div>
           <ul class="clean" style="margin-top:8px">
-            <li>Textos explicando planos de tratamento, orçamentos e alternativas terapêuticas.[web:54]</li>
+            <li>Textos explicando planos de tratamento, orçamentos e alternativas terapêuticas.</li>
             <li>Organização de fotografias e registros de casos em narrativas padronizadas.</li>
-            <li>Criação de modelos de consentimento informado mais claros e objetivos.[web:50]</li>
+            <li>Criação de modelos de consentimento informado mais claros e objetivos.</li>
           </ul>
-        </div>
+      </div>-->
 
-        <div>
-          <div class="feature">
-            <div class="ico">🧩</div>
-            <div>
-              <strong>Entregáveis do programa</strong>
-              <div style="color:var(--muted);margin-top:6px">
-                Materiais para uso imediato pelas equipes clínica e administrativa após o treinamento.
-              </div>
-            </div>
+      <!-- Módulo Entregáveis (Manter a estrutura de módulo) -->
+      <div class="module-section">
+          <h3 class="module-title">
+            <span class="ico">🧩</span>
+            Entregáveis do programa
+          </h3>
+          <div style="color:var(--muted);margin-top:6px;line-height:1.6">
+            Materiais para uso imediato pelas equipes clínica e administrativa após o treinamento.
           </div>
           <ul class="clean" style="margin-top:8px">
             <li>Kit de prompts prontos para documentação, comunicação e rotinas administrativas.</li>
-            <li>Mini-manual interno de boas práticas de IA em saúde, com foco em LGPD e ética.[web:46]</li>
-            <li>Modelos de fluxos de trabalho com IA integrados ao dia a dia da clínica.[web:49]</li>
+            <li>Mini-manual interno de boas práticas de IA em saúde, com foco em LGPD e ética.</li>
+            <li>Modelos de fluxos de trabalho com IA integrados ao dia a dia da clínica.</li>
           </ul>
-        </div>
       </div>
     </section>
+    <!-- FIM DA SEÇÃO ESCOPO DO TREINAMENTO (MODIFICADA) -->
 
     <section class="card" style="margin-top:18px">
       <h2>Carga horária e formato</h2>
