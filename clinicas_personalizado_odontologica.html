@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>IA Generativa para Clínicas Odontológicas</title>
+  <style>
+    :root{
+      --bg:#fbfbfd; --card:#ffffff; --accent:#0b5cff; --accent-2:#6c8cff; --text:#0f1724; --muted:#636b75;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased}
+    .container{max-width:1100px;margin:40px auto;padding:24px}
+    header.hero{background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#fff;padding:56px 24px;border-radius:12px}
+    header.hero h1{margin:0;font-size:2.1rem}
+    header.hero p{margin:12px 0 0;color:rgba(255,255,255,0.95)}
+    .card{background:var(--card);padding:22px;border-radius:12px;box-shadow:0 6px 24px rgba(16,24,40,0.06);}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:20px}
+    h2{color:var(--accent);margin-top:0}
+    .module-section { margin-bottom: 30px; padding-bottom: 20px; border-bottom: 1px solid rgba(16, 24, 40, 0.05); }
+    .module-section:last-of-type { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+    h3.module-title { color:var(--text); margin:0 0 8px 0; font-size:1.25rem; display:flex; align-items:center; }
+    .module-title .ico { margin-right:12px; font-size:24px; padding:6px; background:linear-gradient(180deg,rgba(11,92,255,0.08),rgba(108,140,255,0.06)); border-radius:8px; }
+    p.lead{color:var(--muted);line-height:1.6}
+    .cta{display:inline-block;margin-top:18px;padding:12px 18px;background:#fff;color:var(--accent);font-weight:700;border-radius:10px;text-decoration:none}
+    .feature{display:flex;gap:14px;align-items:flex-start}
+    .feature .ico{font-size:26px;padding:8px;background:linear-gradient(180deg,rgba(11,92,255,0.08),rgba(108,140,255,0.06));border-radius:10px}
+    ul.clean{padding-left:18px;color:var(--muted)}
+    ol.clean{padding-left:18px;color:var(--muted)}
+    .stat{display:flex;gap:18px;flex-wrap:wrap;margin-top:18px}
+    .stat .item{background:linear-gradient(90deg,rgba(11,92,255,0.06),transparent);padding:12px;border-radius:10px;min-width:160px}
+    aside.note{margin-top:18px;padding:14px;border-left:4px solid var(--accent-2);background:linear-gradient(90deg,rgba(108,140,255,0.03),transparent)}
+    footer{max-width:1100px;margin:24px auto 60px;padding:0 24px;color:var(--muted);font-size:0.95rem}
+    @media (max-width:520px){header.hero h1{font-size:1.6rem}}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="hero card">
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:20px;flex-wrap:wrap">
+        <div style="flex:1;min-width:260px">
+          <h1>IA Generativa para Clínicas Odontológicas</h1>
+          <p class="lead">Treinamento hands-on que ensina cirurgiões-dentistas, auxiliares e equipe administrativa a usar inteligência artificial generativa para otimizar documentação, comunicação e gestão odontológica</p>
+          <a class="cta" href="mailto:contato@seudominio.com.br?subject=Proposta%20-%20IA%20para%20Clinicas%20Odontologicas">Solicitar Proposta</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="card" style="margin-top:22px">
+      <h2>Objetivo do programa</h2>
+      <p class="lead">
+        Capacite sua equipe odontológica a usar IA generativa no dia a dia da clínica. 
+        Aprenda a agilizar documentações clínicas, melhorar a comunicação com pacientes sobre planos de tratamento 
+        e organizar processos administrativos com mais eficiência.
+      </p>
+
+      <p class="lead">
+        O resultado? Menos tempo perdido com burocracia e papelada, 
+        mais tempo para focar no que realmente importa: o cuidado odontológico de excelência.
+      </p>
+
+      <p class="lead">
+        Ao final do programa, sua clínica terá fluxos de trabalho inteligentes integrados à rotina, 
+        desde fichas clínicas e consentimentos até comunicação pós-operatória e materiais educativos. 
+        Tudo com diretrizes claras de segurança, ética e total conformidade com a LGPD e regulamentações do CFO.
+      </p>
+    </section>
+
+    <!-- SEÇÃO ESCOPO DO TREINAMENTO -->
+    <section class="card" style="margin-top:18px">
+      <h2>O que IA generativa pode fazer por sua clínica odontológica</h2>
+
+      <!-- Módulo 1 -->
+      <div class="module-section">
+          <h3 class="module-title">
+            <span class="ico">🤖</span>  
+            1 – Fundamentos da IA Generativa na Odontologia
+          </h3>
+          <div style="color:var(--muted);margin-top:6px;line-height:1.6">
+            Visão prática da IA generativa aplicada à realidade das clínicas odontológicas, 
+            com foco em documentação clínica, planos de tratamento e gestão de pacientes.
+          </div>
+          <ul class="clean" style="margin-top:8px">
+            <li>Entendendo LLMs e seu uso seguro na prática odontológica</li>
+            <li>Riscos, limitações e responsabilidade profissional do cirurgião-dentista</li>
+            <li>Boas práticas de uso com foco em ética e segurança de dados (LGPD e CFO)</li>
+          </ul>
+      </div>
+
+      <!-- Módulo 2 -->
+      <div class="module-section">
+          <h3 class="module-title">
+            <span class="ico">📄</span>
+            2 – Documentação clínica odontológica com IA
+          </h3>
+          <div style="color:var(--muted);margin-top:6px;line-height:1.6">
+            Uso de IA para apoiar a elaboração de fichas clínicas, relatórios, 
+            laudos descritivos e documentação para convênios e planos de saúde.
+          </div>
+          <ul class="clean" style="margin-top:8px">
+            <li>Estruturação de fichas clínicas a partir de anotações do dentista</li>
+            <li>Elaboração de laudos descritivos para radiografias e documentação fotográfica</li>
+            <li>Redação de relatórios para convênios e solicitações de autorização</li>
+            <li>Modelos de consentimento informado claros e personalizados</li>
+          </ul>
+      </div>
+
+      <!-- Módulo 3 -->
+      <div class="module-section">
+          <h3 class="module-title">
+            <span class="ico">💬</span>
+            3 – Comunicação com pacientes e educação em saúde bucal
+          </h3>
+          <div style="color:var(--muted);margin-top:6px;line-height:1.6">
+            Aplicação de IA na criação de materiais claros e persuasivos para pacientes, 
+            desde explicações de planos de tratamento até orientações pós-operatórias.
+          </div>
+          <ul class="clean" style="margin-top:8px">
+            <li>Explicação de planos de tratamento em linguagem acessível</li>
+            <li>Orientações pós-operatórias e de cuidados em casa</li>
+            <li>Materiais educativos (posts, folhetos, vídeo-scripts) sobre saúde bucal</li>
+            <li>Comunicação via WhatsApp e e-mail para lembretes e acompanhamento</li>
+          </ul>
+      </div>
+
+      <!-- Módulo 4 -->
+      <div class="module-section">
+          <h3 class="module-title">
+            <span class="ico">💰</span>
+            4 – Gestão administrativa e financeira
+          </h3>
+          <div style="color:var(--muted);margin-top:6px;line-height:1.6">
+            Otimização de processos administrativos, orçamentos, propostas comerciais 
+            e gestão de relacionamento com pacientes.
+          </div>
+          <ul class="clean" style="margin-top:8px">
+            <li>Elaboração de orçamentos detalhados e propostas de tratamento</li>
+            <li>Comunicação sobre formas de pagamento e planos de financiamento</li>
+            <li>Gestão de agendamento e redução de faltas</li>
+            <li>Análise de dados de faturamento e produtividade</li>
+          </ul>
+      </div>
+
+      <!-- Módulo 5 -->
+      <div class="module-section">
+          <h3 class="module-title">
+            <span class="ico">📊</span>
+            5 – Marketing digital e conteúdo para clínicas odontológicas
+          </h3>
+          <div style="color:var(--muted);margin-top:6px;line-height:1.6">
+            Criação de conteúdo relevante para redes sociais, blog da clínica 
+            e materiais de captação de pacientes.
+          </div>
+          <ul class="clean" style="margin-top:8px">
+            <li>Posts para Instagram e Facebook sobre procedimentos e cuidados</li>
+            <li>Artigos para blog com foco em SEO odontológico</li>
+            <li>Scripts para vídeos educativos e reels</li>
+            <li>E-mails marketing para pacientes inativos e re-captação</li>
+          </ul>
+      </div>
+    </section>
+    <!-- FIM DA SEÇÃO ESCOPO -->
+
+    <section class="card" style="margin-top:18px">
+      <h2>Carga horária e formato</h2>
+      <p class="lead">
+        As propostas de treinamento são flexíveis:
+       </p> 
+       <h3>1 - Proposta padrão:</h3>
+       <p class="lead">
+        Prevê um total de <strong>8 horas</strong> de capacitação, 
+        que podem ser realizadas em 1 dia intensivo ou em 2 encontros de 4 horas
+        com turmas mistas (dentistas, auxiliares e equipe administrativa).
+      </p>
+      <h3>2 - Proposta por áreas:</h3>
+       <p class="lead">
+        Por grupos de profissionais com no máximo 10 a 15 pessoas divididos por áreas, 
+        com um programa de treinamento de <strong>4 horas cada</strong>. 
+      </p>
+        <ul class="clean" style="margin-top:8px">
+            <li>Turma 1: Cirurgiões-dentistas e auxiliares (foco em documentação clínica)</li>
+            <li>Turma 2: Equipe administrativa (foco em agendamento, orçamentos e comunicação)</li>
+            <li>Turma 3: Gestores e coordenadores (foco em processos e marketing)</li>
+        </ul>
+      <aside class="note">
+        <strong>Personalização:</strong> é possível ajustar ênfases por especialidades odontológicas 
+        (ortodontia, implante, estética) e por nível de maturidade digital da clínica.
+      </aside>
+      <div class="stat">
+        <div class="item">
+          <strong>Formato</strong>
+          <div><strong>Presencial in company</strong>, com estudo de casos reais e exercícios práticos.</div>
+        </div>
+        <div class="item">
+          <strong>Turma recomendada</strong>
+          <div>Até 15 participantes por grupo para melhor interação e prática.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:18px">
+      <h2>Investimento</h2>
+      <p class="lead">
+        O investimento pode ser estruturado por turma ou por módulo, permitindo que a clínica 
+        comece com um projeto-piloto focado em suas necessidades mais urgentes.
+      </p>
+      <!--<ul class="clean">
+        <li><strong>Modelo completo:</strong> Todos os 5 módulos para equipe completa</li>
+        <li><strong>Opção modular:</strong> Contratação apenas dos módulos prioritários (ex: documentação + comunicação)</li>
+        <li><strong>Pacote piloto:</strong> Treinamento + implantação de 2-3 fluxos com IA na prática</li>
+      </ul>-->
+      <aside class="note">
+        Valores a combinar conforme número de turmas, formato (presencial/online), 
+        necessidade de personalização e tamanho da equipe.
+      </aside>
+    </section>
+
+<section class="card" style="margin-top:18px">
+      <div style="flex:1;min-width:260px">
+        <h2>Próximos passos</h2>
+        <p class="lead">
+          É possível iniciar com uma reunião de diagnóstico rápido para entender o
+           perfil da clínica, mapear principais gargalos na documentação, comunicação 
+           e gestão, e ajustar o conteúdo do treinamento para gerar impacto imediato.
+        </p>
+        <!--<a class="cta" href="mailto:contato@seudominio.com.br?subject=Diagnostico%20-%20IA%20para%20Clinicas%20Odontologicas">Agendar diagnóstico</a>-->
+      </div>
+      <div style="width:340px;min-width:220px">
+       <!-- <div class="card" style="padding:16px">
+          <strong>Entregáveis do programa</strong>
+          <ul class="clean" style="margin-top:8px">
+            <li>Slides e materiais de apoio especializados em odontologia</li>
+            <li>Kit de prompts prontos para documentação clínica e comunicação</li>
+            <li>Modelos de fichas clínicas, consentimentos e relatórios</li>
+            <li>Checklist de implementação de IA na clínica odontológica</li>
+          </ul>
+        </div> -->
+      </div>
+    </section>
+
+  </main>
+  <footer>
+    © 2025 — Treinamentos em IA Generativa para Clínicas Odontológicas • <a href="mailto:contato@seudominio.com.br">contato@seudominio.com.br</a>
+  </footer>
+</body>
+</html>
